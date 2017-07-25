@@ -16,9 +16,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
-file '/etc/motd' do
-  content 'DNS-SERVER'
+service 'named' do
+  provider Chef::Provider::Service::Systemd
+  action :start
 end
-
-include_recipe 'dns-server::install'
-include_recipe 'dns-server::start'

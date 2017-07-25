@@ -16,9 +16,5 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
-file '/etc/motd' do
-  content 'DNS-SERVER'
-end
-
-include_recipe 'dns-server::install'
-include_recipe 'dns-server::start'
+package 'bind'
+package 'net-tools'

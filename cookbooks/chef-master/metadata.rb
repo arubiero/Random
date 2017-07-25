@@ -1,11 +1,13 @@
 name 'chef-master'
-maintainer 'The Authors'
-maintainer_email 'you@example.com'
+maintainer 'Adrian Rubiero'
+maintainer_email 'Adrian.Rubiero@gmail.com'
 license 'All Rights Reserved'
 description 'Installs/Configures chef-master'
 long_description 'Installs/Configures chef-master'
-version '0.1.3'
+version '0.1.4'
 chef_version '>= 12.1' if respond_to?(:chef_version)
+
+depends'dns-server'
 
 # The `issues_url` points to the location where issues for this cookbook are
 # tracked.  A `View Issues` link will be displayed on this cookbook's page when
