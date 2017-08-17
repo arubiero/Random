@@ -1,0 +1,30 @@
+I, [2017-07-20T10:49:52.915571 #7298]  INFO -- Kitchen: -----> Starting Kitchen (v1.16.0)
+E, [2017-07-20T10:49:52.915889 #7298] ERROR -- Kitchen: ------Exception-------
+E, [2017-07-20T10:49:52.915919 #7298] ERROR -- Kitchen: Class: Kitchen::UserError
+E, [2017-07-20T10:49:52.915934 #7298] ERROR -- Kitchen: Message: Kitchen YAML file /home/arubiero/github/Random/iops_test/.kitchen.yml does not exist.
+E, [2017-07-20T10:49:52.915948 #7298] ERROR -- Kitchen: ----------------------
+E, [2017-07-20T10:49:52.915960 #7298] ERROR -- Kitchen: ------Backtrace-------
+E, [2017-07-20T10:49:52.915972 #7298] ERROR -- Kitchen: /home/arubiero/.chefdk/gem/ruby/2.4.0/gems/test-kitchen-1.16.0/lib/kitchen/loader/yaml.rb:71:in `read'
+E, [2017-07-20T10:49:52.915984 #7298] ERROR -- Kitchen: /home/arubiero/.chefdk/gem/ruby/2.4.0/gems/test-kitchen-1.16.0/lib/kitchen/config.rb:152:in `data'
+E, [2017-07-20T10:49:52.915996 #7298] ERROR -- Kitchen: /home/arubiero/.chefdk/gem/ruby/2.4.0/gems/test-kitchen-1.16.0/lib/kitchen/config.rb:131:in `suites'
+E, [2017-07-20T10:49:52.916008 #7298] ERROR -- Kitchen: /home/arubiero/.chefdk/gem/ruby/2.4.0/gems/test-kitchen-1.16.0/lib/kitchen/config.rb:182:in `filter_instances'
+E, [2017-07-20T10:49:52.916019 #7298] ERROR -- Kitchen: /home/arubiero/.chefdk/gem/ruby/2.4.0/gems/test-kitchen-1.16.0/lib/kitchen/config.rb:141:in `build_instances'
+E, [2017-07-20T10:49:52.916031 #7298] ERROR -- Kitchen: /home/arubiero/.chefdk/gem/ruby/2.4.0/gems/test-kitchen-1.16.0/lib/kitchen/config.rb:117:in `instances'
+E, [2017-07-20T10:49:52.916049 #7298] ERROR -- Kitchen: /home/arubiero/.chefdk/gem/ruby/2.4.0/gems/test-kitchen-1.16.0/lib/kitchen/command.rb:112:in `filtered_instances'
+E, [2017-07-20T10:49:52.916062 #7298] ERROR -- Kitchen: /home/arubiero/.chefdk/gem/ruby/2.4.0/gems/test-kitchen-1.16.0/lib/kitchen/command.rb:142:in `parse_subcommand'
+E, [2017-07-20T10:49:52.916074 #7298] ERROR -- Kitchen: /home/arubiero/.chefdk/gem/ruby/2.4.0/gems/test-kitchen-1.16.0/lib/kitchen/command/action.rb:35:in `block in call'
+E, [2017-07-20T10:49:52.916086 #7298] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/2.4.0/benchmark.rb:293:in `measure'
+E, [2017-07-20T10:49:52.916098 #7298] ERROR -- Kitchen: /home/arubiero/.chefdk/gem/ruby/2.4.0/gems/test-kitchen-1.16.0/lib/kitchen/command/action.rb:34:in `call'
+E, [2017-07-20T10:49:52.916110 #7298] ERROR -- Kitchen: /home/arubiero/.chefdk/gem/ruby/2.4.0/gems/test-kitchen-1.16.0/lib/kitchen/cli.rb:53:in `perform'
+E, [2017-07-20T10:49:52.916122 #7298] ERROR -- Kitchen: /home/arubiero/.chefdk/gem/ruby/2.4.0/gems/test-kitchen-1.16.0/lib/kitchen/cli.rb:187:in `block (2 levels) in <class:CLI>'
+E, [2017-07-20T10:49:52.916138 #7298] ERROR -- Kitchen: /home/arubiero/.chefdk/gem/ruby/2.4.0/gems/thor-0.19.1/lib/thor/command.rb:27:in `run'
+E, [2017-07-20T10:49:52.916151 #7298] ERROR -- Kitchen: /home/arubiero/.chefdk/gem/ruby/2.4.0/gems/thor-0.19.1/lib/thor/invocation.rb:126:in `invoke_command'
+E, [2017-07-20T10:49:52.916163 #7298] ERROR -- Kitchen: /home/arubiero/.chefdk/gem/ruby/2.4.0/gems/test-kitchen-1.16.0/lib/kitchen/cli.rb:334:in `invoke_task'
+E, [2017-07-20T10:49:52.916174 #7298] ERROR -- Kitchen: /home/arubiero/.chefdk/gem/ruby/2.4.0/gems/thor-0.19.1/lib/thor.rb:359:in `dispatch'
+E, [2017-07-20T10:49:52.916186 #7298] ERROR -- Kitchen: /home/arubiero/.chefdk/gem/ruby/2.4.0/gems/thor-0.19.1/lib/thor/base.rb:440:in `start'
+E, [2017-07-20T10:49:52.916197 #7298] ERROR -- Kitchen: /home/arubiero/.chefdk/gem/ruby/2.4.0/gems/test-kitchen-1.16.0/bin/kitchen:13:in `block in <top (required)>'
+E, [2017-07-20T10:49:52.916216 #7298] ERROR -- Kitchen: /home/arubiero/.chefdk/gem/ruby/2.4.0/gems/test-kitchen-1.16.0/lib/kitchen/errors.rb:171:in `with_friendly_errors'
+E, [2017-07-20T10:49:52.916229 #7298] ERROR -- Kitchen: /home/arubiero/.chefdk/gem/ruby/2.4.0/gems/test-kitchen-1.16.0/bin/kitchen:13:in `<top (required)>'
+E, [2017-07-20T10:49:52.916240 #7298] ERROR -- Kitchen: /opt/chefdk/bin/kitchen:263:in `load'
+E, [2017-07-20T10:49:52.916265 #7298] ERROR -- Kitchen: /opt/chefdk/bin/kitchen:263:in `<main>'
+E, [2017-07-20T10:49:52.916277 #7298] ERROR -- Kitchen: ----End Backtrace-----
