@@ -2,4 +2,5 @@
 source 'https://supermarket.chef.io'
 
 metadata
-cookbook "dns-server", path '../dns-server'
+cookbook "dns-server", path: '/home/arubiero/github/Random/cookbooks/dns-server'
+cookbook "dhcp", path: '/home/arubiero/github/Random/cookbooks/dhcp'

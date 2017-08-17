@@ -3,9 +3,8 @@
 # Recipe:: default
 #
 # Copyright:: 2017, The Authors, All Rights Reserved.
+package 'less'
+package 'iproute'
+
 include_recipe 'dns-server::default'
-
-
-file '/etc/motd' do
-  content "4rth motd"
-end
+#include_recipe 'dhcp::server'
